@@ -13,7 +13,6 @@ First, read in the data:
 
 ```r
 data <- read.csv("activity.csv", stringsAsFactors = FALSE)
-## noNA <- data[!is.na(data$steps),]
 ```
 
 
